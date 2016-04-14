@@ -47,4 +47,17 @@ Download (or git pull) the code and double click the file to run the program.
 
 Compile and upload the code on Arduino IDE and see the output on Serial Monitor.
 
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc SI7050.c -o SI7050
+```
+Run the c program.
+```cpp
+$>./SI7050
+```
+
 #####The code output is the temperature reading in degree celsius and fahrenheit.
