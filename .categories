@@ -1,4 +1,5 @@
 lang:java
 lang:python
 lang:arduino
+lang:C
 sku:SI7050_I2CS
