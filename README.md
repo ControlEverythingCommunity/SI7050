@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: SI7050_I2CS]
 
 https://www.controleverything.com/content/Temperature?sku=SI7050_I2CS
 
-This Sample code can be used with Raspberry pi and Arduino.
+This Sample code can be used with Raspberry Pi, Arduino, Beaglebone Black and Onion Omega.
 
 ## Java
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
@@ -64,23 +64,4 @@ Run the c program.
 $>./SI7050
 ```
 
-## Onion Omega
-
-Get Started and setting up the Onion Omega according to steps provided at :
-
-https://wiki.onion.io/Get-Started
-
-To install the Python module, run the following commands:
-```cpp
-opkg update
-```
-```cpp
-opkg install python-light pyOnionI2C
-```
-
-Download (or git pull) the code in Onion Omega. Run the program.
-
-```cpp
-$> python SI7050.py
-```
 #####The code output is the temperature reading in degree celsius and fahrenheit.
